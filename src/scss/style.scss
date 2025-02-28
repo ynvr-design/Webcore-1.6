@@ -1,17 +1,28 @@
-$bgColor: #24292e;
-$text: #fff;
+@import "~normalize.css";
+@import "fonts";
+@import "var";
+@import "style";
+@import "content";
+@import "header-bar";
+@import "info-block";
+@import "navigation";
+@import "show-more";
+@import "other";
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
-
-body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
-  background-color: $bgColor;
-  color: $text;
-}
+@import "general";
+@import "icon";
+@import "button";
+@import "text-icon";
+@import "page-title";
+@import "more-info";
+@import "block-title";
+@import "block";
+@import "swiper";
+@import "equipment-repair";
+@import "equipment-repair-slider";
+@import "service-prices";
+@import "service-prices-slider";
+@import "service-prices-slide";
+@import "footer";
+@import "popup";
+@import "form";
